@@ -366,3 +366,15 @@ body {
   height: 3.4em;
   border-radius: 0.26em;
 }
+
+#calendar {
+  float: right;
+  width: 40%;
+  position: sticky;
+  top: 0;
+}
+
+#reviews {
+  float: left;
+  width: 60%;
+}

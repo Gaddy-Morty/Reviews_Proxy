@@ -31,7 +31,8 @@ app.get('/month', (req,res) => {
     url: `http://localhost:3001/month/${params}`
   })
   .then(function(response) {
-    res.send(response.data);
+    // res.send(response.data);
+    res.json({msg: 'This is CORS-enabled for a Single Route'})
   })
   .catch(function(error) {
     console.log(error);
